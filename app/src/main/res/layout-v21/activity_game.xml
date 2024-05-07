@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <Button
+        android:id="@+id/return_home"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:onClick="return_home"
+        android:text="@string/stop_game"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/quiz_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/quiz_number"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/quiz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/quiz_text"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Sunday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Sunday" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Monday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Monday" />
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Tuesday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Tuesday" />
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Wednesday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Wednesday" />
+
+    <Button
+        android:id="@+id/answerBtn5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Thursday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Thursday" />
+
+    <Button
+        android:id="@+id/answerBtn6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Friday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Friday" />
+
+    <Button
+        android:id="@+id/answerBtn7"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="check_answer"
+        android:backgroundTint = "@color/Saturday"
+        android:textColor = "@color/black"
+        android:text="@string/Japanese_of_Saturday" />
+
+</LinearLayout>

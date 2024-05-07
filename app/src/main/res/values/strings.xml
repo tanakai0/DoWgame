@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">DoW game</string>
+    <string name="date_and_time">%s</string>
+    <string name="game_title">DoW game</string>
+    <string name="home_game_mode">ゲームモード選択</string>
+    <string name="home_total_score">統合スコア表示</string>
+    <string name="home_tips">Tips</string>
+    <string name="home_settings">設定</string>
+    <string name="select_game_mode_start_game">ゲーム開始</string>
+    <string name="select_game_mode_title">ゲームモード</string>
+    <string name="quiz_number">Q%1$d  /%2$d</string>
+    <string name="quiz_text">%s</string>
+    <string name="Japanese_of_Sunday">日</string>
+    <string name="Japanese_of_Monday">月</string>
+    <string name="Japanese_of_Tuesday">火</string>
+    <string name="Japanese_of_Wednesday">水</string>
+    <string name="Japanese_of_Thursday">木</string>
+    <string name="Japanese_of_Friday">金</string>
+    <string name="Japanese_of_Saturday">土</string>
+    <string name="result_title">結果</string>
+    <string name="return_btn">戻る</string>
+    <string name="result_score">正答率：%1$d/%2$d</string>
+    <string name="result_time">正答問題平均回答時間：\n%.3f[s]</string>
+    <string name="result_time_exception">正答問題平均回答時間：-</string>
+    <string name="tips_title">Tips</string>
+    <string name="summary_of_method_title">おすすめ解法要約</string>
+    <string name="stop_game">中断</string>
+    <string name="select_game_mode_spinner_text">問題数：%s</string>
+    <string name="summary_of_method_text">グレゴリオ暦（歴史的には1582年10月15日以降）はS=G1+G2+G3+G4+G5とする。
+        ユリウス暦（歴史的には1582年10月4日以前）は，S=J1+G2+G3+G4+J5とする。Sを7で割った余りで、曜日が以下のように決まる。
+        [1：日，2：月，3：火，4：水，5：木，6：金，0：土]
+        \nG1. 年÷100の商を4で割った余りに対応した数値（余り：G1）[0：6，1：4，2：2，3：0]
+        \nG2. 年の下二桁を10倍して8で割った商
+        \nG3. 月に対応した数値[1月：1，2月：4，3月：4，4月：0，5月：2，6月：5，7月：0，8月：3，9月：6，10月：1，11月：4，12月：6]
+        \nG4. 日
+        \nG5. グレゴリオ暦の閏年（100の倍数以外の4の倍数の年、または400の倍数の年）の1月2月である時のみ、-1
+        \nJ1：年÷100の商を7で割った余りを、11から引いた数値
+        \nJ5：ユリウス暦の閏年（4の倍数の年）の1月2月である時のみ、-1
+        \n\n例題1（グレゴリオ暦）：1916/1/24
+        \nG1：19÷4=4余り3より、0
+        \nG2：16×10÷8=20余り0より、20
+        \nG3：1月より、1
+        \nG4：24
+        \nG5：閏年の1月より、-1
+        \nよって、(0+20+1+24-1)÷7=6余り2、月曜日。
+        \n\n例題2（ユリウス暦）：1538/11/7
+        \nJ1：15÷7=2余り1より、11-1 = 10
+        \nG2：38×10÷8=47余り4より、47
+        \nG3：11月より、4
+        \nG4：7
+        \nJ5：閏年ではないため、0
+        \nよって、(10+47+4+7+0)÷7=9余り5、木曜日。</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/date_and_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_and_time"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:textSize="60sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/home_game_mode"
+        android:layout_marginTop="80dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:onClick="select_mode"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/home_total_score"
+        android:layout_marginTop="6dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:onClick="history"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/home_tips"
+        android:layout_marginTop="6dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:onClick="tips"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/home_settings"
+        android:layout_marginTop="6dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:onClick="checkAnswer"/>
+</LinearLayout>
