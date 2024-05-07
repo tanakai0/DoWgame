@@ -1,5 +1,8 @@
 # DoWgame
-A game for Android that calculates the day of the week from a date.
+曜日を計算するクイズを出すアンドロイドアプリ
+
+## 設計
+doc フォルダ参照
 
 ## 音楽素材
 DoWgame\app\src\main\res\raw 内の mp3 ファイルは除いてある。
