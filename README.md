@@ -1,8 +1,10 @@
 # DoWgame
 曜日を計算するクイズを出すアンドロイドアプリ
 
-## Version
-Android Studio gradle 6.5
+## Version 
+Android Studio gradle 6.5  
+SDK Build Tools 30.03  
+26 < Android SDK API Level < 30  
 
 ## 設計
 doc フォルダ参照
